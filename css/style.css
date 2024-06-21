@@ -22,6 +22,7 @@ ul{
 .menu-list {
     display: flex;
     gap: 20px;
+    align-items: center;
 
 }
 
@@ -29,4 +30,50 @@ ul{
     text-decoration: none;
     font-weight: bold;
     color:rgb(213, 20, 20);
+    font-size: 22px;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title {
+    position: absolute;
+    padding: 30px;
+    background-color: chocolate;
+    color: #fff;
+    font-size: 32px;
+}
+.home-bg-image {
+    width: 100%;
+}
+
+.home-image {
+    position: absolute;
+
+}
+
+.promotions-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.promotions-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#promotions .images-item {
+    width: 405px;
+    height: 251px;
+    background-image: url(https://raw.githubusercontent.com/digitalcollegebr/projeto-digital-store/main/public/collection-1.png);
 }
